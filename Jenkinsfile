@@ -8,8 +8,8 @@ pipeline {
       }
     }
     stage('Test') {
-      steps 
-        sh './pes501'
+      steps {
+        sh './pes504'
         echo 'Test stage successful'
       }
     }
